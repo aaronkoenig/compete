@@ -1,0 +1,34 @@
+2013/01/27 16:03:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#1 /yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/sites/compete/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/01/27 16:06:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#1 /yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/sites/compete/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/01/27 16:12:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#1 /yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/sites/compete/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2013/01/27 16:12:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /yii/framework/gii/GiiModule.php:169
+Stack trace:
+#0 /yii/framework/web/CController.php(264): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /yii/framework/web/CWebApplication.php(283): CController->run('')
+#2 /yii/framework/web/CWebApplication.php(142): CWebApplication->runController('gii')
+#3 /yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/sites/compete/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
